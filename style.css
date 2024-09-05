@@ -1,0 +1,191 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: #809686;
+    background-size: cover;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #E79E5A;
+    border-radius: 5px;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    background: #809686;
+}
+
+header {
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 20px;
+    height: 10vh;
+    position: fixed;
+    z-index: 10;
+
+}
+
+a {
+    color: #000000;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.image {
+    width: 150px;
+    padding: 5px;
+    height: 100%;
+    position: absolute;
+    left: 950px;
+
+}
+
+.hello {
+    font-size: 90px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 200px;
+    text-shadow: 8px 2px black;
+
+}
+
+main h2 {
+    font-size: 130px;
+    color: white;
+    margin-left: 40px;
+    padding-bottom: 400px;
+    text-shadow: 10px 2px black;
+}
+
+.about h2 {
+    font-size: 65.8px;
+    color: #E79E5A;
+    font-weight: bold;
+    padding-top: 30px;
+    text-shadow: 3px 3px black;
+}
+
+#abtme ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px black;
+
+}
+
+#abtme ul li {
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-size: 65.8px;
+    color: #E79E5A;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 3px black;
+}
+
+.myeducation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px black;
+}
+
+.skills h2 {
+    font-size: 65.8px;
+    color: #E79E5A;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 3px black;
+}
+
+.myskills {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px black;
+}
+
+.contact h2 {
+
+    font-size: 65.8px;
+    color: #E79E5A;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 10px;
+    text-shadow: 3px 3px black;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.hi {
+    overflow: hidden;
+}
+
+.ct {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px #000000;
+    justify-content: space-around;
+
+}
+
+.pic {
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.co {
+    width: auto;
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px #000000;
+}
