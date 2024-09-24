@@ -150,11 +150,12 @@ main h2 {
 }
 .skil{
    display: flex;
-   padding-left: 150px;
-   gap: 50px;
-   margin-top: 90px;  
+   justify-content: center;
+   padding: 50px;
+   padding-bottom: 30px;
 }
 .skillimg{
+    
     height: 120px;
     display: flex;   
 }

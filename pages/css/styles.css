@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.about{
+    text-align: center;
+    background-color: bisque;
+}
+.box-model-example{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+img{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    padding-bottom: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+.inline-style{
+    font-weight: bolder;
+}
+.movies{
+    font-weight:bolder;
+}
