@@ -66,32 +66,19 @@ main h2 {
     margin-left: 40px;
     padding-bottom: 400px;
     text-shadow: 10px 2px black;
+
 }
 
 .about h2 {
+    padding-left: 25px;
     font-size: 65.8px;
     color: #E79E5A;
     font-weight: bold;
     padding-top: 30px;
     text-shadow: 3px 3px black;
-}
+} 
 
-#abtme ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 1px black;
 
-}
-
-#abtme ul li {
-    margin-bottom: 20px;
-}
 
 .education h2 {
     font-size: 65.8px;
