@@ -29,6 +29,7 @@ nav a{
 }
 
 nav {
+    padding-top: 13px;
     display: block;
     position: fixed;
     background: #809686;
@@ -46,8 +47,9 @@ header {
 
 a {
     color: #000000;
-    margin: 40px;
+    margin: 50px;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .image img {
@@ -82,7 +84,7 @@ main h2 {
     font-size: 65.8px;
     color: #E79E5A;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 60px;
     text-shadow: 3px 3px black;
 }
 
@@ -108,7 +110,7 @@ main h2 {
     color: #E79E5A;
     font-weight: bold;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-top: 10px;
     text-shadow: 3px 3px black;
 }
@@ -131,12 +133,13 @@ main h2 {
     color: #E79E5A;
     font-weight: bold;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-top: 10px;
     text-shadow: 3px 3px black;
 }
 
 .myskills {
+    padding-bottom: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -155,7 +158,6 @@ main h2 {
    padding-bottom: 30px;
 }
 .skillimg{
-    
     height: 120px;
     display: flex;   
 }
@@ -164,7 +166,7 @@ main h2 {
     color: #E79E5A;
     font-weight: bold;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-top: 10px;
     text-shadow: 3px 3px black;
 }
