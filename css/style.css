@@ -434,3 +434,107 @@ header {
     opacity: 0.10;
 }
 
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    #home {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .home-container {
+        margin-bottom: 30px;
+    }
+
+    .home-content h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .home-content p {
+        font-size: 1.2em;
+    }
+
+    .home-image img {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    #education {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .education-container {
+        padding: 0;
+        text-align: center;
+    }
+
+    .education-image img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #education h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
+    #education p {
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .english-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .threeboxes {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .project-box {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contact-box {
+        width: 95%;
+    }
+
+    #social-media {
+        flex-wrap: wrap;
+    }
+}
