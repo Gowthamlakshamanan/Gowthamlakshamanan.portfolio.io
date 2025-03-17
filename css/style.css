@@ -113,11 +113,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 } */
 
-.home-image img{
-    height: 75%;
-    width: 75%;
-    margin-left: 10px;       
-}
+
 .home-content span{
     font-size: 1.7em;
     color: #333;
@@ -136,11 +132,9 @@ header {
     display: inline-block;
 }
 
-.home-image img {
-    display: block;
-    width: 70%;
-    height: auto;
-   
+.home-image img{
+width: 500px;
+    
 }
 
 .home-image::after {
